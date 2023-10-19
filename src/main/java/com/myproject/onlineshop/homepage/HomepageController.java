@@ -14,7 +14,7 @@ public class HomepageController {
 
 
 
-    @GetMapping("")
+    @GetMapping("/")
     public String homePage(){
 
 

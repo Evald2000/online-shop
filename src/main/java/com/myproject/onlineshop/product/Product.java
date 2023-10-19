@@ -22,7 +22,7 @@ public class Product {
     @Column
     String name;
     @Column
-    Currency price;
+    Float price;
 
 
     public void setId(Long id) {
