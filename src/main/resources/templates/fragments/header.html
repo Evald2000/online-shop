@@ -11,8 +11,15 @@
 <div class="navbar">
     <a class="active" th:href="@{/}">Home</a>
     <a th:href="@{/allProducts}">Products</a>
-    <a class="active" th:href="@{/AdminPage}">Admin</a>
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+        <a th:href="@{/createProductView}">Create new product</a>
+
+    </div>
+</div>
     <a href="#contact">Contact</a>
+
 
 </div>
 
