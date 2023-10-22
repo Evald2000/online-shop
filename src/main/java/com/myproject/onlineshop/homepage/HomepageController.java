@@ -28,4 +28,9 @@ public class HomepageController {
         productRepo.save(Product.builder().name("kek").build());
         return "homepage";
     }
+
+    @GetMapping("test")
+    public String test1(){
+        return "test";
+    }
 }

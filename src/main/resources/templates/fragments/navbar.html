@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>$Title$</title>
+  <link th:href="@{/css/navbarStyle.css}" rel="stylesheet" />
+
 </head>
 <body>
-$END$
+<nav>
+  <nav  class="grid">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <div class="dropdown">
+          <a>Admin </a>
+          <div class="dropdown-content">
+            <a th:href="@{createProductView}">Create new product</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</nav>
 </body>
 </html>
